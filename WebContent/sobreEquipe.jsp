@@ -24,7 +24,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<c:forEach var="carro" items="${lista}">
-					<div class="card" style="width: 18rem; float: left; margin: 30px;">
+					<div class="card" style="width: 18rem; float: left; margin: 25px;">
 						<img class="card-img-top" src="${carro.imagem}"
 							style="width: 285px; height: 250px;">
 						<div class="card-body" style="display: flex;">

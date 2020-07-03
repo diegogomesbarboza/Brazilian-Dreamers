@@ -67,7 +67,9 @@
 							</div>
 							<div class="form-group col-md-6">
 								<label for="imagem"> Imagem </label>
-								<input id="imagem" name="imagem" type="file" value="${carro.imagem}"/>
+								<input
+									id="imagem" name="imagem"
+									class="form-control" value="${carro.imagem}" placeholder="Insira uma URL: http://exemplo.com.br" required>
 							</div>
 							<div class="form-group col-md-6">
 								<button type="button" class="btn btn-default"

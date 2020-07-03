@@ -22,19 +22,20 @@
 			<div class="col-md-4">
 				<div class="jumbotron" style="opacity: 0.7">
 					<h1>Nosso dia a dia</h1>
-					<p>Conheça os melhores carros e desejados de Brasilia e venha sonhar conosco esse sonho!</p>
+					<p>Conheça os melhores carros e desejados de Brasilia e venha
+						sonhar conosco esse sonho!</p>
 					<img alt="Locadora" src="imagens/teste2.png">
 
 				</div>
 			</div>
 		</div>
+	
+			<%@ include file="rodape.jsp"%>
+		</div>
 
-		<%@ include file="rodape.jsp"%>
-	</div>
-
-	<!--  rodapé do body -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
+		<!--  rodapé do body -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
 </body>
 </html>

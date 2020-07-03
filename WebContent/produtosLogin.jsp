@@ -42,9 +42,9 @@
 								</ul>
 								<div class="card-body">
 									<a
-										href="/Brazilian-Dreamers/servlet?acao=editar&id_produto=${produto.id_produto}">EDITAR</a>
+										style="color: blue;" href="/Brazilian-Dreamers/servlet?acao=editar&id_produto=${produto.id_produto}">EDITAR</a>
 									<a
-										href="/Brazilian-Dreamers/servlet?acao=excluir&id_produto=${produto.id_produto}">EXCLUIR
+										style="color: red;" href="/Brazilian-Dreamers/servlet?acao=excluir&id_produto=${produto.id_produto}">EXCLUIR
 									</a>
 								</div>
 							</div>
